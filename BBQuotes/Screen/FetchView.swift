@@ -74,7 +74,7 @@ struct FetchView: View {
                                 await vm.getQuoteData(for: show)
                             }
                         } label: {
-                            Text("Get random quote")
+                            Text(Constants.getRandomQuote)
                                 .font(.title3)
                                 .foregroundStyle(.white)
                                 .padding()
@@ -88,7 +88,7 @@ struct FetchView: View {
                                 await vm.getEpisode(for: show)
                             }
                         } label: {
-                            Text("Get random Episode")
+                            Text(Constants.getRandomEpisode)
                                 .font(.title3)
                                 .foregroundStyle(.white)
                                 .padding()
@@ -114,6 +114,6 @@ struct FetchView: View {
 }
 
 #Preview {
-    FetchView(show: "Breaking Bad")
+    FetchView(show: Constants.bbName)
         .preferredColorScheme(.dark)
 }

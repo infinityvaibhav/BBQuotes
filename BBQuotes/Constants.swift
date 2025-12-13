@@ -9,4 +9,6 @@ enum Constants {
     static let bbName = "Breaking Bad"
     static let bcsName = "Better call saul"
     static let ecName = "El Camino"
+    static let getRandomQuote = "Get random quote"
+    static let getRandomEpisode = "Get random Episode"
 }
