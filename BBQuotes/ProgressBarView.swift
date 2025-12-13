@@ -4,10 +4,6 @@
 //
 //  Created by वैभव उपाध्याय on 10/12/25.
 //
-
-// Source - https://stackoverflow.com/a
-// Posted by Constantin Breahna, modified by community. See post 'Timeline' for change history
-// Retrieved 2025-12-10, License - CC BY-SA 4.0
 import Foundation
 import SwiftUI
 

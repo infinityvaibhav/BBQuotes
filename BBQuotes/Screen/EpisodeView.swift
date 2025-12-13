@@ -35,8 +35,8 @@ struct EpisodeView: View {
             
             Text("Written By: \(episode.writtenBy)")
             
-            Text("Written By: \(episode.directedBy)")
-            Text("Written By: \(episode.airDate)")
+            Text("Directed By: \(episode.directedBy)")
+            Text("Air Date: \(episode.airDate)")
         }
         .padding()
         .foregroundStyle(.white)
