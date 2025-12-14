@@ -20,6 +20,10 @@ struct ContentView: View {
             Tab(Constants.ecName, systemImage: "car") {
                 FetchView(show: Constants.ecName)
             }
+            
+            Tab(Constants.settings, systemImage: "gear") {
+                SettingsView()
+            }
         }
         .preferredColorScheme(.dark)
     }
